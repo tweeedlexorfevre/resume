@@ -1,0 +1,27 @@
+.resume {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  color: #333;
+}
+
+.resume h1 {
+  margin: 0;
+}
+
+.resume .role {
+  margin-top: 4px;
+  color: #4f46e5;
+  font-weight: bold;
+}
+
+.resume h2 {
+  margin-top: 24px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #4f46e5;
+  font-size: 18px;
+}
