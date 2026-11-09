@@ -1,11 +1,17 @@
 import './Resume.css'
+import photo from './assets/sunbringer.webp'
 
 function Resume() {
   return (
     <div className="resume">
-      <h1>Иван Иванов</h1>
-      <p className="role">Frontend-разработчик</p>
-      <p>Email: ivan@example.com · Телефон: +7 700 000 00 00</p>
+      <div className="header">
+        <img className="photo" src={photo} alt="Фото" />
+        <div>
+          <h1>Dastan Raibekov</h1>
+          <p className="role">Frontend-разработчик</p>
+          <p>Email: ivan@example.com · Телефон: +7 700 000 00 00</p>
+        </div>
+      </div>
 
       <h2>О себе</h2>
       <p>Начинающий разработчик, изучаю React и люблю делать удобные интерфейсы.</p>
